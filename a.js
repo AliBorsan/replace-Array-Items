@@ -1,10 +1,11 @@
 
 let vendors = ['hp', 'Samsung', 'Dell', 'apple' , 'hp', 'Huawei'];
-let vlen = vendors.length;
 console.log(vendors);
+//Array(6) ['hp', 'Samsung', 'Dell', 'apple' , 'hp', 'Huawei']
 let customers = ['Sam', 'John', 'xi', 'Albert' , 'xi', 'jurt', 'xi'];
 console.log(customers);
-let clen = customers.length;
+//Array(6) ['Sam', 'John', 'xi', 'Albert' , 'xi', 'jurt', 'xi']
+
 
 function replaceArrayItems(arr, item, val){
  
@@ -20,8 +21,11 @@ function replaceArrayItems(arr, item, val){
 
 replaceArrayItems(vendors, 'hp', 'Xiaomi');
 console.log(vendors);
+//Array(6) [ "Xiaomi", "Samsung", "Dell", "apple", "Xiaomi", "Huawei" ]
+
 replaceArrayItems(customers, 'xi', 'Yin');
 console.log(customers);
+//Array(7) [ "Sam", "John", "Yin", "Albert", "Yin", "jurt", "Yin" ]
 
 
     
