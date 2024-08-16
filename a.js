@@ -5,6 +5,7 @@ console.log(vendors);
 let customers = ['Sam', 'John', 'xi', 'Albert' , 'xi', 'jurt', 'xi'];
 console.log(customers);
 let clen = customers.length;
+
 function replaceArrayItems(arr, item, val){
  
     let len = arr.length;
@@ -17,10 +18,10 @@ function replaceArrayItems(arr, item, val){
 	  
   }
 
-  replaceArrayItems(vendors, 'hp', 'Xiaomi');
-    console.log(vendors);
-    replaceArrayItems(customers, 'xi', 'Yin');
-    console.log(customers);
+replaceArrayItems(vendors, 'hp', 'Xiaomi');
+console.log(vendors);
+replaceArrayItems(customers, 'xi', 'Yin');
+console.log(customers);
 
 
     
